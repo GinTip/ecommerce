@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const URL_ROOT = "https://api-ecommerce-ecpw.onrender.com/api/auth";
-const URL_ROOT = "http://localhost:4000/api/auth";
+const URL_ROOT = "https://api-ecommerce-ecpw.onrender.com/api/auth";
+// const URL_ROOT = "http://localhost:4000/api/auth";
 const CONFIG = {
   headers: {
     "auth-token": localStorage.getItem("token"),

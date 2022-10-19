@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const URL = "https://api-ecommerce-ecpw.onrender.com/api/products";
-const URL = "http://localhost:4000/api/products";
+const URL = "https://api-ecommerce-ecpw.onrender.com/api/products";
+// const URL = "http://localhost:4000/api/products";
 
 const CONFIG = {
   headers: {
