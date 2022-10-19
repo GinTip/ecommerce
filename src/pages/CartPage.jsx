@@ -44,7 +44,7 @@ const CartPage = () => {
         ) : (
           <section className="row">
             <article className="col">
-              <h5>Aún no hay productos en el carrito</h5>
+              <h5>Aún no hay productos en el carrito...</h5>
               <NavLink to="/productos" >
                 <button className="btn btn-success btn-lg" type="button">Ver productos</button>
               </NavLink>
