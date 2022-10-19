@@ -27,6 +27,7 @@ const ProductList = () => {
                 <h5 className="card-title">{product.name}</h5>
                 <br />
                 <p className="card-text">{product.description}</p>
+                <h5 className="card-title">${product.price}.00 mxn</h5>
                 <br />
                 <NavLink to={`/producto/${product.id}`} className='btn btn-dark'>Detalles</NavLink>
                 <button
